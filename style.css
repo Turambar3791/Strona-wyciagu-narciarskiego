@@ -1,0 +1,300 @@
+/***********************/
+/*       Ogólne        */
+/***********************/
+
+.logo
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    border: none;
+}
+
+body
+{
+    background-image: url(zdjecia/tło.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div
+{
+    border: 2px rgb(224, 130, 217) solid;
+}
+
+input[type="submit"]
+{
+    border: none;
+    background-color: rgb(224, 130, 217);
+    transition: 0.22s all ease;
+}
+
+input[type="submit"]:hover
+{
+    border: none;
+    background-color: rgb(229, 87, 151);
+}
+
+input[type="text"],input[type="number"],input[type="password"]
+{
+    background-color: rgb(224, 130, 217);
+    border: none;
+}
+
+a
+{
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.12s ease;
+}
+
+a:hover
+{
+    color: aquamarine !important;
+}
+
+.centrowanie
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.error
+{
+    color: rgb(255, 238, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+#cien
+{
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/***********************/
+/*      Logowanie      */
+/***********************/
+
+.logowanie
+{
+    background-color: rgb(159, 64, 159);
+    width: 500px;
+}
+
+/***********************/
+/*     Rejestracja     */
+/***********************/
+
+.rejestracja
+{
+    background-color: rgb(159, 64, 159);
+    width: 500px;
+}
+
+/***********************/
+/*       Witamy        */
+/***********************/
+
+.witamy
+{
+    background-color: rgb(159, 64, 159);
+    width: 500px;
+}
+
+/***********************/
+/*     Doładowanie     */
+/***********************/
+
+.doladowanie
+{
+    background-color: rgb(159, 64, 159);
+    width: 400px;
+}
+
+/***********************/
+/*       Karnety       */
+/***********************/
+
+.karnety_nav
+{
+    background-color: rgb(159, 64, 159);
+    margin-top: 5px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.karnety
+{
+    background-color: rgb(136, 48, 136);
+    margin-top: 2%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table_karnety
+{
+    width: 100%;
+}
+
+.th_karnety,.td_karnety
+{
+    padding: 10px;
+}
+
+.zdj_karnety
+{
+    width: 205px;
+}
+
+.bilet
+{
+    width: 200px;
+}
+
+/***********************/
+/*        Wynik        */
+/***********************/
+
+.twoje_karnety
+{
+    background-color: rgb(136, 48, 136);
+    width: 70%;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 5%;
+    float: left;
+}
+
+.table_twoje_karnety
+{
+    width: 100%;
+}
+
+.th_twoje_karnety,.td_twoje_karnety
+{
+    padding: 10px;
+}
+
+.zdj_twoje
+{
+    width: 205px;
+}
+
+.twoj_bilet
+{
+    width: 200px;
+}
+
+.dane_osobowe
+{
+    background-color: rgb(159, 64, 159);
+    width: 15%;
+    margin-top: 10px;
+    margin-right: 3%;
+    margin-left: auto;
+}
+
+.dodatkowe_info
+{
+    background-color: rgb(159, 64, 159);
+    width: 13%;
+    margin-top: 70px;
+    margin-right: 3%;
+    margin-left: auto;
+}
+
+/***********************/
+/*     Panel admina    */
+/***********************/
+
+.body_admin
+{
+    background-color: black;
+}
+
+.powrot
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 20%;
+}
+
+.guziczki
+{
+    margin-top: 5px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guziczek1,.guziczek2,.guziczek3
+{
+    display: inline-block;
+    padding: 10px;
+    transition: all 1s ease;
+    border: none;
+}
+
+.guziczek1:hover,.guziczek2:hover,.guziczek3:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
+
+.admin_user,.admin_karnety,.admin_karnety_usuwanie
+{
+    width: 50%;
+    color: darkgreen;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.admin_user
+{
+    display: block;
+}
+
+.admin_karnety,.admin_karnety_usuwanie
+{
+    display: none;
+}
+
+.table_admin
+{
+    width: 100%;
+}
+
+.th_admin,.td_admin
+{
+    padding: 10px;
+}
+
+.td_admin_ticket
+{
+    width: 205px;
+}
+
+.admin_img_ticket
+{
+    width: 200px;
+}
+
+/***********************/
+/*         Ban         */
+/***********************/
+
+.ban
+{
+    background-color: rgb(159, 64, 159);
+    width: 500px;
+}

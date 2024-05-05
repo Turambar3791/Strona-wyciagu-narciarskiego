@@ -1,0 +1,253 @@
+/***********************/
+/*       Ogólne        */
+/***********************/
+
+body
+{
+    background-image: url(zdjecia/tło.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+a
+{
+    color: white !important;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:hover
+{
+    color: aquamarine !important;
+}
+
+.zapychacz
+{
+    height: 118px;
+}
+
+/***********************/
+/*        Menu         */
+/***********************/
+
+nav
+{
+    position: fixed;
+    height: 118px;
+    background-color: rgb(136, 48, 136);
+    width: 100%;
+}
+
+
+/* kotwiczki */
+
+.menu
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.kotwiczki
+{
+    display: inline-block;
+    padding: 10px;
+    transition: all 1s ease;
+    width: 24%;
+    text-align: center;
+}
+
+.kotwiczki:hover
+{
+    background-color: rgb(159, 64, 159);
+    cursor: pointer;
+}
+
+/* logowanie */
+
+.logowanie_div
+{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.logowanie_link
+{
+    transition: all 1s ease;
+    padding: 10px;
+    width: 100%;
+}
+
+.logowanie_link:hover
+{
+    background-color: rgb(159, 64, 159);
+}
+
+.avatar
+{
+    height: 21px;
+    width: 18px;
+}
+
+/***********************/
+/*        Main         */
+/***********************/
+
+main
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/***********************/
+/*       Slajder       */
+/***********************/
+
+#galeria
+{
+    background-color: rgba(195, 125, 144, 0.912);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.strzałka_lewa,.strzałka_prawa
+{
+    background-color: rgba(205, 43, 200, 0.724);
+    color: white;
+    cursor: pointer;
+    font-size: 100px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slajd
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation-name: przejscie;
+    animation-duration: 1.5s;
+}
+
+@keyframes przejscie 
+{
+    from {opacity: 0.1}
+    to {opacity: 1}
+}
+
+#slajd1
+{
+    display: flex;
+}
+
+#slajd2,#slajd3
+{
+    display: none;
+}
+
+
+/***********************/
+/*     Informacje      */
+/***********************/
+
+#info
+{
+    background-color: rgba(195, 125, 195, 0.912);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.opis_wyciagi
+{
+    margin-top: 50px;
+}
+
+.table_wyciagi,.th_wyciagi,.td_wyciagi
+{
+    border: 2px rgb(194, 36, 183) solid;
+}
+
+.table_wyciagi
+{
+    width: 100%;
+}
+
+.th_wyciagi
+{
+    text-align: center;
+}
+
+.th_wyciagi,.td_wyciagi
+{
+    padding: 10px;
+}
+
+.lista_zasady
+{
+    padding-top: 10px;
+}
+
+/***********************/
+/*       Bilety        */
+/***********************/
+
+#bilety
+{
+    background-color: rgba(195, 125, 144, 0.912);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.bilety_info
+{
+    margin-top: 50px;
+}
+
+.table_bilety,.th_bilety,.td_bilety
+{
+    border: 2px rgb(194, 36, 128) solid;
+}
+
+.table_bilety
+{
+    width: 100%;
+}
+
+.th_bilety
+{
+    text-align: center;
+}
+
+.th_bilety,.td_bilety
+{
+    padding: 10px;
+}
+
+/***********************/
+/*       Godziny       */
+/***********************/
+
+#godziny
+{
+    background-color: rgba(195, 125, 195, 0.912);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
